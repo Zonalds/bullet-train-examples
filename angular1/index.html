@@ -1,0 +1,24 @@
+<html ng-app="bulletTrainApp" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bullet-train-client/lib/index.js"></script>
+    <script src="/main.js"></script>
+<body>
+<div ng-controller="Controller as data">
+    <div ng-if="has_loaded">
+        <div ng-if="instant_messaging">
+            You have the instant messaging feature
+        </div>
+        <div ng-if="!instant_messaging">
+            You do not have the feature
+        </div>
+        <span ng-style="{ fontSize: font_size + 'px' }">
+            Font size controlled by BulletTrain
+        </span>
+    </div>
+    <div ng-if="!has_loaded">
+        Loading
+    </div>
+</div>
+</body>
