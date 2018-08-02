@@ -16,6 +16,7 @@ For running a particular example, simply follow the readme instructions in the c
 ```npm i bullet-train-client --save```
 
 **Retrieving feature flags for your project**
+Bullet Train can integrate with any framework not listed here, at a high level this is how Bullet Train works:
 
 ```javascript
 import bulletTrain from "bullet-train-client or react-native-bullet-train"; //Add this line if you're using bulletTrain via npm
