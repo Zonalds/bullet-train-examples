@@ -1,31 +1,22 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
+# dependencies
+/node_modules
 
-pids
-logs
-results
-_dev
-bower_components
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-npm-debug.log
-node_modules
-server_old
-public
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-# OS generated stuff
+# System Files
 .DS_Store
-.DS_Store?
-
-.idea/
-
-/doc
-
-rethinkdb_data
-
-config-local.js
+Thumbs.db
