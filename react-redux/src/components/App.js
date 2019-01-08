@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 export default ({ has_loaded, instant_messaging, font_size }) => (
   <div>
